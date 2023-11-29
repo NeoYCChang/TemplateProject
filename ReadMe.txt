@@ -1,4 +1,4 @@
-[5.0.0.1] 2023/10/09
+[5.1.0.1] 2023/10/10
 
 ***append version control***
 
@@ -9,9 +9,9 @@
     YYYY/MM/DD
 
 
-1.append port button
+1.modify readme.txt
 
-TemplateProjectProject
+TemplateProject
   ├─document # 手冊，電路圖，流程圖
   │
   ├─source # *.cpp, *.h, *.ui, CMakeLists.txt
@@ -44,7 +44,7 @@ TemplateProjectProject
 3.append connect button
 
 
-TemplateProjectProject
+TemplateProject
   ├─document # 手冊，電路圖，流程圖
   │
   ├─source # *.cpp, *.h, *.ui, CMakeLists.txt
@@ -76,7 +76,7 @@ TemplateProjectProject
 2.modify readme.txt
 
 
-TemplateProjectProject
+TemplateProject
   ├─document # 手冊，電路圖，流程圖
   │
   ├─source # *.cpp, *.h, *.ui, CMakeLists.txt
@@ -107,7 +107,7 @@ TemplateProjectProject
 1.append tcp server
 
 
-TemplateProjectProject
+TemplateProject
   ├─document # 手冊，電路圖，流程圖
   │
   ├─source # *.cpp, *.h, *.ui, CMakeLists.txt
@@ -138,7 +138,7 @@ TemplateProjectProject
 1.Hello world - terminal
 
 
-TemplateProjectProject
+TemplateProject
   ├─document # 手冊，電路圖，流程圖
   │
   ├─source # *.cpp, *.h, *.ui, CMakeLists.txt
@@ -170,7 +170,7 @@ TemplateProjectProject
 2.First Release
 
 
-TemplateProjectProject
+TemplateProject
   ├─document # 手冊，電路圖，流程圖
   │
   ├─source # *.cpp, *.h, *.ui, CMakeLists.txt
