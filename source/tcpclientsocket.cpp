@@ -7,8 +7,8 @@ tcpclientsocket::tcpclientsocket(QObject *parent)
 }
 
 //when data arrives
-void tcpclientsocket::dataReceived()
-{
+ void tcpclientsocket::dataReceived()
+ {
     //bytesAvailable() is from <QTcpSocket>
     //Returns the number of bytes that are available for reading
     while(bytesAvailable() > 0)
@@ -17,11 +17,11 @@ void tcpclientsocket::dataReceived()
         char buf[length];
         read(buf,length);
         QString msg(buf);
-        emit updateClients(msg,length,this->socketDescriptor());
+        emit updateClients(msg,length);
     }
-}
+ }
 
-void tcpclientsocket::slotDisconnected()
-{
+ void tcpclientsocket::slotDisconnected()
+ {
     emit disconnected(this->socketDescriptor());
-}
+ }

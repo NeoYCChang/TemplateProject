@@ -3,10 +3,7 @@
 
 #include <QObject>
 #include <QTcpServer>
-#include <QDateTime>
-#include <QNetworkInterface>
 #include "tcpclientsocket.h"
-#include <stdio.h>
 
 class server : public QTcpServer
 {
@@ -18,7 +15,7 @@ public:
 signals:
     void updateServer(QString,int);
 public slots:
-    void updateClients(QString,int,qintptr socketDescriptor);
+    void updateClients(QString,int);
     void slotDisconnected(int);
 protected:
     void incomingConnection(qintptr socketDescriptor); //incomingConnectiond() is from <QTcpServer> (virtual function)
